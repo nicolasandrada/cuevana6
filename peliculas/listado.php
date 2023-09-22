@@ -1,11 +1,7 @@
 <?php
-$con = new mysqli("localhost","root","","cuevana6");
+include "conexion.php";
 
-if(!$con){
-    echo $con->error;
-}
-
-$sql = "SELECT * FROM pelicula";
+$sql = "SELECT * FROM pelicula ";
 
 $res = $con->query($sql);
 
