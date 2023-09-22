@@ -1,0 +1,14 @@
+body{
+    background-color: blueviolet;
+}
+
+#contenedor{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+img{
+    min-height: 300px;
+}
+
