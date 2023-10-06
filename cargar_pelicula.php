@@ -14,11 +14,11 @@
     <form action="peliculas/guardar.php" method="post" enctype="multipart/form-data">
         <label for="titulo">Titulo</label>
         <input type="text" name="titulo" id="titulo">
-        <input type="file" name="foto" id="foto" >
-        <input type="checkbox" name="cat" id="" value="terror">
-        <input type="checkbox" name="cat" id="" value="comedia">
-        <input type="checkbox" name="cat" id="" value="drama">
-        <input type="checkbox" name="cat" id="" value="documental">
+        <input type="file" name="foto" id="foto">
+        <input type="checkbox" name="cat[]" id="" value="terror">
+        <input type="checkbox" name="cat[]" id="" value="comedia">
+        <input type="checkbox" name="cat[]" id="" value="drama">
+        <input type="checkbox" name="cat[]" id="" value="documental">
 
         <input type="submit" value="Guardar ">
     </form>
